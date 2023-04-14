@@ -47,9 +47,11 @@ section h2,
  .articles article h3 {
     margin-top: 16px;
     margin-bottom: 16px;
- }
+    font: italic;
+    color: blueviolet;
+}
  .articles article a{
-    background-color: blue;
+    background-color: rgb(246, 112, 163);
     color: aliceblue;
     padding: 8px;
     display: inline-block;
