@@ -5,14 +5,22 @@
 }
 
 body > header {
-    background-color: rgb(222, 214, 214) ;
+    background-color: rgb(236, 206, 206) ;
     padding: 10px 0;
+}
 
+header.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
     header li{
-        display:inline ;
-    }
+        display: inline ;
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: bold;
+            }
+
     .container {
         width: 1366px;
         margin: 0 auto;
@@ -31,8 +39,7 @@ body > header {
 }
 
 .articles article img{
-    width: 30%;
-
+    width: 60%;
 }
 
 section {
@@ -48,14 +55,17 @@ section h2,
     margin-top: 16px;
     margin-bottom: 16px;
     font: italic;
-    color: blueviolet;
+    color: rgb(68, 21, 112);
 }
  .articles article a{
-    background-color: rgb(246, 112, 163);
+    
     color: aliceblue;
     padding: 8px;
     display: inline-block;
     text-decoration: none;
+    font-weight: 500;
+    margin-top: 8px;
+    margin-block-end: 10px;
 
  }
  .articles article a:hover {
@@ -75,7 +85,34 @@ text-decoration: underline;
     font-stretch: 32;
     
  }
- .articles article {
-    background-color:antiquewhite; }
+ 
+ #sports {
+    background-color: azure;
+ }
 
+ #sports .articles article a{
+    background-color: cornflowerblue;
+ }
 
+ #economy{
+    background-color: rgb(226, 210, 190);
+ }
+ #economy .articles article a {
+    background-color: rgb(110, 58, 95);
+ }
+
+ #education{
+    background-color: rgb(166, 238, 163);
+ }
+
+ #education .articles article a{
+    background-color: rgb(19, 113, 49);
+ }
+
+ #entretement{
+    background-color: rgb(144, 142, 198);
+ }
+
+ #entretement .articles article a{
+    background-color: rgb(83, 18, 129);
+ }
